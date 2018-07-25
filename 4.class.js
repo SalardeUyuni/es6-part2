@@ -12,7 +12,7 @@ class Parent{
 }
 class Child extends Parent{ // Object.create(Child.prototype,Parent.prototype);
     constructor(){
-        //super(); // Parent.call(this);
+        super(); // Parent.call(this);
     }
 }
 let child = new Child()
